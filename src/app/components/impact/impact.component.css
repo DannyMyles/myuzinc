@@ -1,39 +1,36 @@
-@import url(//fonts.googleapis.com/css?family=Montserrat:300,500);
-.team4 {
-  font-family: "Montserrat", sans-serif;
-	color: #8d97ad;
-  font-weight: 300;
+.user-pic {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 100%;
+  margin: 20px auto 20px;
+  border-left: 3px solid #ddd;
+  border-right: 3px solid #ddd;
+  border-top: 3px solid #007bff;
+  border-bottom: 3px solid #007bff;
+  transform: rotate(-30deg);
+  transition: 0.5s;
 }
-
-.team4 h1, .team4 h2, .team4 h3, .team4 h4, .team4 h5, .team4 h6 {
-  color: #3e4555;
+.card-box:hover .user-pic {
+  transform: rotate(0deg);
+  transform: scale(1.1);
 }
-
-.team4 .font-weight-medium {
-	font-weight: 500;
+.card-box {
+  padding: 15px;
+  background-color: #fdfdfd;
+  margin: 20px 0px;
+  border-radius: 10px;
+  border: 1px solid #eee;
+  box-shadow: 0px 0px 8px 0px #d4d4d4;
+  transition: 0.5s;
 }
-
-.team4 h5 {
-    line-height: 22px;
-    font-size: 18px;
+.card-box:hover {
+border: 1px solid #007bff;
 }
-
-.team4 .subtitle {
-    color: #8d97ad;
-    line-height: 24px;
-		font-size: 13px;
+.card-box p {
+  color: #808080;
 }
-
-.team4 ul li a {
-  color: #8d97ad;
-  padding-right: 15px;
-  -webkit-transition: 0.1s ease-in;
-  -o-transition: 0.1s ease-in;
-  transition: 0.1s ease-in;
-}
-
-.team4 ul li a:hover {
-  -webkit-transform: translate3d(0px, -5px, 0px);
-  transform: translate3d(0px, -5px, 0px);
-	color: #316ce8;
+.impact{
+  color: rgba(238, 168, 2, 0.895);
+  font-size: 20px;
 }
