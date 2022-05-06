@@ -1,1 +1,151 @@
-<p>main-nav works!</p>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light my-2, my-lg-0, me-sm-0, my-sm-0 ">
+    <!-- Container wrapper -->
+    <div class="container-fluid">
+
+      <!-- Toggle button -->
+      <div class="dropdown mr-3">
+        <a
+          class="d-flex align-items-center hidden-arrow" href="#" id="navbarDropdownMenuAvatar" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+          <img
+            src="/assets/images/ui.png" height="45" alt="profil" loading="lazy"/>
+        </a>
+        <ul
+          class="dropdown-menu dropdown-menu-end"
+          aria-labelledby="navbarDropdownMenuAvatar"
+        >
+          <li>
+            <a class="dropdown-item" href="#"><i class="fa-solid fa-graduation-cap"></i>
+              <span>Training</span></a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#"><i class="fa-solid fa-handshake"></i>
+              <span>Partnership</span></a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#"><i class="far fa-gem"></i>
+              <span>Opportunity</span></a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#"><i class="fa fa-chart-line"></i>
+              <span>Sustainability</span></a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#"><i class="fa fa-globe"></i>
+              <span>Repository</span></a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Collapsible wrapper -->
+      
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <!-- Navbar brand -->
+        <a class="navbar-brand mt-2 mt-lg-0" href="#">
+          <img
+            src="/assets/images/myuzinc.PNG" height="45" alt="logo" loading="lazy"/>
+        </a>
+      </div>
+      <!-- Collapsible wrapper -->
+    <!-- sidebar-header  -->
+
+    <!-- sidebar-search  -->
+      <!-- Right elements -->
+      <div class="d-flex align-items-center">
+
+        <div class="sidebar-search container mr-5 align-items-center justify-content-center  input-group-lg">
+        <div>
+          <div class="input-group  input-group-lg">
+            <input type="text" class="form-control search-menu" placeholder="Search...">
+            <div class="input-group-append">
+              <span class="input-group-text">
+                <i class="fa fa-search" aria-hidden="true"></i>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+        <div class="dropdown mr-3">
+          <a
+            class="d-flex align-items-center hidden-arrow" href="#"  role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+            <img
+              src="/assets/images/settings.png" height="30" alt="profil" loading="lazy"/>
+          </a>
+          <ul
+            class="dropdown-menu dropdown-menu-end"
+            aria-labelledby="navbarDropdownMenuAvatar"
+          >
+            <li>
+              <a class="dropdown-item" href="#">Go to settings</a>
+            </li>
+          </ul>
+        </div>
+
+
+        <div class="dropdown mr-3">
+          <a
+            class="d-flex align-items-center hidden-arrow" href="#" id="navbarDropdownMenuAvatar" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+            <img
+              src="/assets/images/dots-menu.png" height="30" alt="profil" loading="lazy"/>
+          </a>
+          <ul
+            class="dropdown-menu dropdown-menu-end"
+            aria-labelledby="navbarDropdownMenuAvatar"
+          >
+            <li>
+              <a class="dropdown-item" href="#">Shazam</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">Music</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">Lyrics</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Avatar -->
+        <div class="dropdown mr-3">
+          <a
+            class="d-flex align-items-center hidden-arrow" href="#" id="navbarDropdownMenuAvatar" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+            <img
+              src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp" class="rounded-circle" height="30" alt="profil" loading="lazy"/>
+          </a>
+          <ul
+            class="dropdown-menu dropdown-menu-end"
+            aria-labelledby="navbarDropdownMenuAvatar"
+          >
+            <li>
+              <a class="dropdown-item" href="#">Profile</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">Settings</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">Logout</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- Right elements -->
+    </div>
+    <!-- Container wrapper -->
+  </nav>
+  <!-- Navbar -->
+
+  <main>
+    <!--..... main carousel ... -->
+  <div class="d-block">
+    <app-carousel></app-carousel>
+  </div>
+  
+  <!-- close carousel   -->
+
+  <!-- impact stories  -->
+  <div class="d-block">
+    <app-impact></app-impact>
+  </div>
+
+  <!-- close impact stories  -->
+</main>
