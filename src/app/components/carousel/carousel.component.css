@@ -18,21 +18,21 @@
       min-height: 300px;
 }
  
-.top-content .carousel-item-1 {
-    background-image: url(/assets/images/m1.jpg);
+/* .top-content .carousel-item-1 {
+    background-image: url(assets/images/m1.jpg);
 }
+  */
+/* .top-content .carousel-item-2 {
+    background-image: url(assets/images/mic.jpg);
+} */
  
-.top-content .carousel-item-2 {
-    background-image: url(/assets/images/mic.jpg);
-}
+/* .top-content .carousel-item-3 {
+    background-image: url(assets/images/m3.jpg);
+} */
  
-.top-content .carousel-item-3 {
-    background-image: url(/assets/images/m3.jpg);
-}
- 
-.top-content .carousel-item-4 {
-    background-image: url(/assets/images/m5.jpg);
-}
+/* .top-content .carousel-item-4 {
+    background-image: url(assets/images/m5.jpg);
+} */
 
 @media (max-width: 575px) {
  

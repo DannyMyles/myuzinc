@@ -1,6 +1,4 @@
-
-
-.row2 {
+/* .row2 {
     padding-bottom: 20px;
 }
 
@@ -10,9 +8,9 @@
     border: 0 none;
     outline: 0 none;
     font-size: 15px;
-}
+} */
 
-.flipkart-navbar-button {
+/* .flipkart-navbar-button {
     background-color: #ffe11b;
     border: 1px solid #ffe11b;
     border-radius: 0 2px 2px 0;
@@ -20,9 +18,9 @@
     padding: 10px 0;
     height: 43px;
     cursor: pointer;
-}
+} */
 
-.cart-button {
+/* .cart-button {
     background-color: #2469d9;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .23), inset 1px 1px 0 0 hsla(0, 0%, 100%, .2);
     padding: 10px 0;
@@ -37,23 +35,23 @@
     color: inherit;
     border: none;
     outline: none;
-}
+} */
 
-.cart-button:hover{
+/* .cart-button:hover{
     text-decoration: none;
     color: #fff;
     cursor: pointer;
-}
-
+} */
+/* 
 .cart-svg {
     display: inline-block;
     width: 16px;
     height: 16px;
     vertical-align: middle;
     margin-right: 8px;
-}
+} */
 
-.item-number {
+/* .item-number {
     border-radius: 3px;
     background-color: rgba(0, 0, 0, .1);
     height: 20px;
@@ -63,9 +61,9 @@
     color: #fff;
     line-height: 12px;
     margin-left: 10px;
-}
+} */
 
-.upper-links {
+/* .upper-links {
     display: inline-block;
     padding: 0 11px;
     line-height: 23px;
@@ -75,27 +73,27 @@
     border: none;
     outline: none;
     font-size: 12px;
-}
+} */
 
-.dropdown {
+/* .dropdown {
     position: relative;
     display: inline-block;
     margin-bottom: 0px;
-}
+} */
 
-.dropdown:hover {
+/* .dropdown:hover {
     background-color: #fff;
-}
-
+} */
+/* 
 .dropdown:hover .links {
     color: #000;
-}
+} */
 
-.dropdown:hover .dropdown-menu {
+/* .dropdown:hover .dropdown-menu {
     display: block;
-}
+} */
 
-.dropdown .dropdown-menu {
+/* .dropdown .dropdown-menu {
     position: absolute;
     top: 100%;
     display: none;
@@ -107,19 +105,19 @@
     box-shadow: 0 4px 8px -3px #555454;
     margin: 0;
     padding: 0px;
-}
+} */
 
-.links {
+/* .links {
     color: #fff;
     text-decoration: none;
-}
+} */
 
-.links:hover {
+/* .links:hover {
     color: #fff;
     text-decoration: none;
-}
+} */
 
-.profile-links {
+/* .profile-links {
     font-size: 12px;
     font-family: 'Roboto', sans-serif;
     border-bottom: 1px solid #e9e9e9;
@@ -127,30 +125,30 @@
     display: block;
     padding: 0 11px;
     line-height: 23px;
-}
-
+} */
+/* 
 .profile-li{
     padding-top: 2px;
-}
+} */
 
-.largenav {
+/* .largenav {
     display: none;
-}
+} */
 
-.smallnav{
+/* .smallnav{
     display: block;
-}
+} */
 
-.smallsearch{
+/* .smallsearch{
     margin-left: 15px;
     margin-top: 15px;
-}
+} */
 
-.menu{
+/* .menu{
     cursor: pointer;
-}
+} */
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
     .largenav {
         display: block;
     }
@@ -160,10 +158,10 @@
     .smallsearch{
         margin: 0px;
     }
-}
+} */
 
 /*Sidenav*/
-.sidenav {
+/* .sidenav {
     height: 100%;
     width: 0;
     position: fixed;
@@ -175,8 +173,8 @@
     transition: 0.5s;
     box-shadow: 0 4px 8px -3px #555454;
     padding-top: 0px;
-}
-
+} */
+/* 
 .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
@@ -193,13 +191,13 @@
     font-size: 36px;
     margin-left: 50px;
     color: #fff;        
-}
+} */
 
-@media screen and (max-height: 450px) {
+/* @media screen and (max-height: 450px) {
   .sidenav a {font-size: 18px;}
 }
 
 .sidenav-heading{
     font-size: 36px;
     color: #fff;
-}
+} */
